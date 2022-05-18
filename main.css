@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dongle&family=Fredoka+One&family=Inconsolata:wght@300;500&family=Outfit&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,400&family=Quicksand:wght@400;500;600;700&family=Roboto&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: initial;
+}
+.link {
+  color: #0057ff;
+}
+.center {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+}
+.center .container {
+  width: 100%;
+  height: 100%;
+  max-width: 700px;
+  max-height: 400px;
+}
+.moreview {
+  color: #ffffff;
+  background-color: #0081ff;
+  padding: 5px 9px;
+  border-radius: 3px;
+  box-shadow: rgba(0,0,0,0.9) 0px 0.2px 0.4px;
+  display: inline-block;
+  transition: .3s;
+}
+.moreview:hover {
+  transform: scale(1.09);
+  color: #ffffff;
+  background-color: #0057ff;
+  box-shadow: rgba(0,0,0,0.6) 0px 0px 3px;
+}
+@media only screen and (min-width: 768px) {
+   .row-2 {
+      display: flex;
+      flex-wrap: wrap-reverse;
+      justify-content: center;
+      align-items: center;
+   }
+   .item-row {
+      width: 50%;
+   }
+}
