@@ -3,7 +3,7 @@
   "short_name": "Test",
   "start_url": "/?home=true",
   "icons": [
-    }
+    {
       "src": "image.png",
       "sizes": "512x512",
       "type": "image/png",
